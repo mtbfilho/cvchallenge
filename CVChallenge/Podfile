@@ -6,6 +6,7 @@ target 'CVChallenge' do
   use_frameworks!
 
   # Pods for CVChallenge
-  pod 'Alamofire', '~> 5.2'
+  pod 'Alamofire', '~> 4.7'
+  pod 'AlamofireObjectMapper', '~> 5.2'
   pod 'SDWebImage', '~> 5.0'
 end
