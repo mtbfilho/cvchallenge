@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		CF02BD4A24AFFD1A001C16F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF02BD4924AFFD1A001C16F5 /* Assets.xcassets */; };
 		CF02BD4D24AFFD1A001C16F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF02BD4B24AFFD1A001C16F5 /* LaunchScreen.storyboard */; };
 		CF02BD5524B000D3001C16F5 /* CVChallengeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF02BD5424B000D3001C16F5 /* CVChallengeCell.swift */; };
+		CFC1952B24B1E302001DE866 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1952A24B1E302001DE866 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CF02BD4C24AFFD1A001C16F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF02BD4E24AFFD1A001C16F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF02BD5424B000D3001C16F5 /* CVChallengeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVChallengeCell.swift; sourceTree = "<group>"; };
+		CFC1952A24B1E302001DE866 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,6 @@
 				01F7901160CDF59BCA9E8521 /* Pods-CVChallenge.debug.xcconfig */,
 				5C8A385EBDE6E51A9963851D /* Pods-CVChallenge.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +89,7 @@
 				CF02BD4B24AFFD1A001C16F5 /* LaunchScreen.storyboard */,
 				CF02BD4E24AFFD1A001C16F5 /* Info.plist */,
 				CF02BD5424B000D3001C16F5 /* CVChallengeCell.swift */,
+				CFC1952A24B1E302001DE866 /* Model.swift */,
 			);
 			path = CVChallenge;
 			sourceTree = "<group>";
@@ -210,6 +212,7 @@
 				CF02BD4524AFFD18001C16F5 /* ViewController.swift in Sources */,
 				CF02BD5524B000D3001C16F5 /* CVChallengeCell.swift in Sources */,
 				CF02BD4124AFFD18001C16F5 /* AppDelegate.swift in Sources */,
+				CFC1952B24B1E302001DE866 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
